@@ -1,23 +1,37 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <div class="container">
-    <div class="left">
-      <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook logo">
-      <p>Facebook helps you connect and share with the people in your life.</p>
-    </div>
-    <div class="right">
-      <form>
-        <input type="text" id="email" placeholder="Email address or phone number">
-        <input type="password" id="password" placeholder="Password">
-        <button type="submit">Log in</button>
-        <a href="#">Forgotten account?</a>
-      </form>
-      <button class="signup">Create new account</button>
-    </div>
-  </div>
+	<!-- the entire body must be written by student -->
+	<div class="container">
+		<div class="left">
+			<img src="" alt="Fb Logo"/>
+			<p>Facebook helps you connect and 
+			share with the people in your life.</p>
+		</div>
+		<div class="right">
+			<form>
+				<div>
+					<input id="email" type='text' placeholder="Email address or phone number">
+				</div>
+				<div>
+					<input id="password" type='password' placeholder="Password" >
+				</div>
+				<input type="submit" class="signup" id="loginBtn" value="Log in">
+				<a href="/recover/initiate">Forgotten account?</a>
+				<hr>
+				<button><a class="create" href="/reg/initiate">Create new account</a></button>
+			</form>
+		</div>
+	</div>
+    <script type="text/javascript" src="./script.js">
+</script>
+
 </body>
+
 </html>
